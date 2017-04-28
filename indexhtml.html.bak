@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="ko">
+<head>
+	<meta charset="UTF-8">
+	<title>포트폴리오</title>
+	<style>
+	.book-wrap{width: 920px;margin:50px auto;}
+	.page {width: 460px;height: 600px;background-color: #fff;}
+	</style>
+</head>
+<body>
+	<div class="book-wrap">
+		<div id="flipbook">
+			<div class="page"><img src="img/1 (2).jpg" alt=""></div>
+			<div class="page"><img src="img/1 (2).jpg"  alt=""></div>
+			<div class="page"><img src="img/1 (2).jpg"  alt=""></div>
+			<div class="page"><img src="img/1 (2).jpg"  alt=""></div>
+			<div class="page"><img src="img/1 (2).jpg"  alt=""></div>
+			<div class="page"><img src="img/1 (2).jpg"  alt=""></div>
+			<div class="page"><img src="img/1 (2).jpg"  alt=""></div>
+			<div class="page"><img src="img/1 (2).jpg"  alt=""></div>
+			<div class="page"><img src="img/1 (2).jpg"  alt=""></div>
+			<div class="page"><img src="img/1 (2).jpg"  alt=""></div>
+		</div>
+	</div>			
+	<script src="lib/jquery.js"></script>
+	<script src="lib/turn.js"></script>
+	<script>
+	$(function(){
+		$('#flipbook').turn({
+			width:920,
+			height:600
+		})
+	})
+	</script>
+</body>
+</html>
